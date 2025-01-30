@@ -1,0 +1,67 @@
+.reviewContainer {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 600px;
+    margin: auto;
+    background-color: #f9f9f9; /* Light background for better visibility */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+  }
+  
+  .reviewContainer h2 {
+    margin-bottom: 10px;
+  }
+  
+  .reviewContainer form {
+    margin-bottom: 20px;
+  }
+  
+  .star-rating {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .star {
+    width: 30px; /* Adjust size as needed */
+    height: 30px; /* Adjust size as needed */
+    cursor: pointer;
+    margin-right: 5px; /* Space between stars */
+  }
+  
+  .reviewContainer label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .commentInput {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical; /* Allow vertical resizing */
+  }
+  
+  .submitButton {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for button */
+  }
+  
+  .submitButton:hover {
+    background-color: #218838; /* Darker green on hover */
+  }
+  
+  .reviewList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .reviewItem {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+  }
